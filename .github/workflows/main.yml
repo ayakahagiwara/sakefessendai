@@ -16,9 +16,9 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4     # FTPアップロードアクション（https://github.com/SamKirkland/FTP-Deploy-Action）
         with:
-          server: ${{ secrets.STAGING_SERVER }}       # FTPのサーバーアドレス
-          username: ${{ secrets.STAGING_USERNAME }}   # FTPのユーザー名
-          password: ${{ secrets.STAGING_PASSWORD }}   # FTPのパスワード
+          server: ${{ secrets.FTP_SERVER }}       # FTPのサーバーアドレス
+          username: ${{ secrets.FTP_USERNAME }}   # FTPのユーザー名
+          password: ${{ secrets.FTP_PASSWORD }}   # FTPのパスワード
           protocol: ftps
           local-dir: sakefes-sendai2023/                          # アップロードしたいフォルダのパス
           server-dir: /home/ohagi0503/www/      # アップロード先のフォルダのパス
