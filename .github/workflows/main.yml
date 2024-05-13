@@ -1,8 +1,8 @@
-name: Staging FTP Upload
+name: FTP Upload
 
 on:                       # トリガーの設定
   push:                   # プッシュ時に実行
-    branches: [develop]    # ブランチの指定
+    branches: [main]    # ブランチの指定
       
 jobs:
   FTP-Deploy-Action:
@@ -21,4 +21,4 @@ jobs:
           password: ${{ secrets.STAGING_PASSWORD }}   # FTPのパスワード
           protocol: ftps
           local-dir: sakefes-sendai2023/                          # アップロードしたいフォルダのパス
-          server-dir: /home/sakefessendai2023.ohagi0503/www/      # アップロード先のフォルダのパス
+          server-dir: /home/ohagi0503/www/      # アップロード先のフォルダのパス
