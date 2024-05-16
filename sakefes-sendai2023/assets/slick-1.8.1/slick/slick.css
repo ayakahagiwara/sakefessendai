@@ -11,7 +11,9 @@
   user-select: none;
   -ms-touch-action: pan-y;
   touch-action: pan-y;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: transparent;
+  width: 70%;
+ }
 
 .slick-list {
   position: relative;
@@ -52,7 +54,6 @@
 .slick-slide {
   transform: scale(.85);
   float: left;
-  height: 500px;
   min-height: 1px;
   display: none; }
   [dir="rtl"] .slick-slide {

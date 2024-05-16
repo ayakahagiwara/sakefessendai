@@ -45,27 +45,27 @@
   .slick-prev:before,
   .slick-next:before {
     font-family: "slick";
-    font-size: 20px;
+    font-size: 40px;
     line-height: 1;
-    color: white;
+    color: rgb(0, 0, 0);
     opacity: 0.75;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
 .slick-prev {
-  left: -25px; }
+  left: -100px; }
   [dir="rtl"] .slick-prev {
     left: auto;
-    right: -25px; }
+    right: -100px; }
   .slick-prev:before {
     content: "←"; }
     [dir="rtl"] .slick-prev:before {
       content: "→"; }
 
 .slick-next {
-  right: -25px; }
+  right: -100px; }
   [dir="rtl"] .slick-next {
-    left: -25px;
+    left: -100px;
     right: auto; }
   .slick-next:before {
     content: "→"; }

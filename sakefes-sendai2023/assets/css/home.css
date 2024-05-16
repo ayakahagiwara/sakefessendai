@@ -5,17 +5,18 @@ html {
   box-sizing: border-box;
   background-color: #ebebeb;
   scroll-behavior: smooth;
+  font-feature-settings: "palt";
 }
 body h1 {
   font-family: 'しっぽり明朝', serif;
   font-weight: 800;
-  font-size: 3.0rem;
+  font-size: 2.6rem;
   text-align: center;
 }
 body h2 {
   font-family: 'しっぽり明朝', serif;
   font-weight: 600;
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 .main-video_sp {
@@ -343,7 +344,7 @@ input[type="checkbox"] {
 .slogan {
   display: block;
   position: relative;
-  height: 800px;
+  height: 370px;
   width: 100%;
   background-color: #ebebeb;
   margin-bottom: 100px;
@@ -354,7 +355,7 @@ input[type="checkbox"] {
   z-index: 3;
   left: 0;
   top: -8%;
-  width: 250px;
+  width: 200px;
 }
 .slogan_bottle-green img {
   width: 100%;
@@ -362,9 +363,9 @@ input[type="checkbox"] {
 .slogan_bottle-pink {
     display: block;
     position: absolute;
-    left: 24%;
+    left: 20%;
     top: 47%;
-    width: 250px;
+    width: 200px;
 }
 .slogan_bottle-pink img {
   width: 100%;
@@ -374,7 +375,7 @@ input[type="checkbox"] {
   position: absolute;
   right: 0;
   top: 25%;
-  height: 400px;
+  height: 300px;
 }
 .slogan_grid img {
   width: 100%;
@@ -383,9 +384,9 @@ input[type="checkbox"] {
   display: block;
   position: absolute;
   z-index: 4;
-  right: 10%;
+  right: 15%;
   top: 3%;
-  width: 590px;
+  width: 400px;
 }
 .slogan_woman img {
   width: 100%;
@@ -394,9 +395,9 @@ input[type="checkbox"] {
   display: block;
   position: absolute;
   z-index: 4;
-  right: 30%;
-  top: 80%;
-  width: 680px;
+  right: 37%;
+  top: 45%;
+  width: 500px;
 }
 .slogan_woman-eye img {
   width: 100%;
@@ -430,11 +431,23 @@ input[type="checkbox"] {
   position: absolute;
   z-index: 5;
   left: 4%;
-  bottom: 10%;
+  bottom: -17%;
   width: 150px;
   transform: rotate(95deg);
 }
 .slogan_sakura2 img {
+  width: 100%;
+}
+.slogan_leg{
+  display: block;
+  position: absolute;
+  z-index: 5;
+  left: 4%;
+  top: 193%;
+  width: 250px;
+
+}
+.slogan_leg img {
   width: 100%;
 }
 @media(max-width:950px) {
@@ -642,10 +655,10 @@ input[type="checkbox"] {
 .about p {
   font-family: 'しっぽり明朝', serif;
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-align: center;
   margin-bottom: 60px;
-  line-height: 3.4rem;
+  line-height: 3.8rem;
   z-index: 20;
 }
 .about_bottle-green {
@@ -714,7 +727,7 @@ input[type="checkbox"] {
   padding-bottom: 150px;
 }
 .point_contents-wrapper {
-  width: 90%;
+  width: 82%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -734,7 +747,7 @@ input[type="checkbox"] {
   padding: 25px 0;
 }
 .point_sake, .point_wineglass, .point_food, .point_venue, .point_stage {
-  width: 375px;
+  width: 320px;
   height: auto;
   background-color: #FFF;
   border: #000 1px solid;
@@ -744,23 +757,23 @@ input[type="checkbox"] {
   text-align: justify;
 }
 .point_contents-wrapper img {
-  height: 260px;
+  height: 200px;
   width: 100%;
   object-fit: cover;
   border-top: solid #000 1px;
   border-bottom: solid #000 1px;
 }
 .point_contents-wrapper p {
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  font-size: 1.4rem;
+  line-height: 2.0rem;
   font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
   font-weight: 400;
-  padding: 20px 20px 35px 20px;
+  padding: 25px 40px 45px 40px;
 }
 .point_sake a, .point_food a, .point_venue a, .point_venue a, .point_stage a {
   display: block;
   position: absolute;
-  right: 30px;
+  right: 73px;
   bottom: -34px;
   width: 160px;
   height: 50px;
@@ -840,7 +853,7 @@ input[type="checkbox"] {
     text-align: justify;
   }
   .point_contents-wrapper img {
-    height: 230px;
+    height: 200px;
     width: 100%;
     object-fit: cover;
     border-top: solid #000 1px;
@@ -898,7 +911,7 @@ input[type="checkbox"] {
   margin-bottom: 50px;
 }
 .overview table {
-  font-size: 2.0rem;
+  font-size: 1.6rem;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -913,7 +926,7 @@ input[type="checkbox"] {
 }
 .overview_cash-image-pc {
   display: block;
-  width: 80%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -926,11 +939,11 @@ input[type="checkbox"] {
 .overview_attention {
   font-size: 1.6rem;
   line-height: 2.4rem;
-  width: 80%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .overview_deposit {
   width: 100%;
@@ -964,7 +977,8 @@ input[type="checkbox"] {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  width: 70%;
+  margin: 0 auto 10px;
   height: auto;
 }
 .overview_deposit-image1, .overview_deposit-image2, .overview_deposit-image3 {
@@ -1120,7 +1134,7 @@ input[type="checkbox"] {
   display: flex;
   position: relative;
   margin: 0 auto;
-  width: 75%;
+  width: 60%;
   height: auto;
   border: solid 1px #000;
   border-radius: 10px;
@@ -1183,9 +1197,9 @@ input[type="checkbox"] {
 }
 .map_bottle_green {
   position: absolute;
-  width: 16%;
+  width: 12%;
   bottom: -2%;
-  left: 1%;
+  left: 11%;
 }
 .map_bottle_green img {
   width: 100%;
@@ -1302,7 +1316,7 @@ input[type="checkbox"] {
   padding-bottom: 50px;
 }
 .access-area {
-  width: 80%;
+  width: 60%;
   height: 400px;
   background-color: #FFF;
   border: solid 1px #000;
@@ -1338,15 +1352,15 @@ input[type="checkbox"] {
   position: relative;
 }
 .qa_title-wrapper {
-  width: 80%;
+  width: 60%;
   background-color: #ebebeb;
   border: solid 1px #000;
   border-radius: 10px 10px 0 0;
-  padding: 60px 0;
+  padding: 40px 0;
   margin: 0 auto;
 }
 .qa_main {
-  width: 80%;
+  width: 60%;
   background-color: #FFF;
   border: solid 1px #000;
   border-top: none;
@@ -1357,12 +1371,12 @@ input[type="checkbox"] {
 }
 .qa_question {
   font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
-  font-size: 2.0rem;
+  font-size: 1.4rem;
   font-weight: 600;
 }
 .qa_answer {
   font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.7rem;
 }
@@ -1373,18 +1387,18 @@ input[type="checkbox"] {
 }
 .qa_chat .qa_icon {
   float: left;
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   margin-left: 2%;
   background-color: #000;
   border-radius: 50%;
   border: solid #000 1px;
 }
 .qa_chat .qa_icon img {
-  width: 60%;
-  height: 60%;
+  width: 40%;
+  height: 40%;
   display: inline-block;
-  margin-top: 12px;
+  margin-top: 14px;
   margin-left: 5%;
 }
 .qa_question-wrapper {
@@ -1605,7 +1619,7 @@ input[type="checkbox"] {
 .news_timeline-area {
   display: block;
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
   border: 1px solid #000;
 }
 .news_bottle_pink {
@@ -1655,12 +1669,12 @@ input[type="checkbox"] {
   background-color: #FFF;
 }
 .sdgs_contents-wrapper {
-  width: 100%;
+  width: 60%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 50px;
+  margin: 50px auto 0;
 }
 .sdgs_icon11, .sdgs_icon12 {
   width: 145px;
@@ -1672,7 +1686,7 @@ input[type="checkbox"] {
 .sdgs_text-area {
   width: 50%;
   margin-left: 30px;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
   font-weight: 400;
   line-height: 2.7rem;
@@ -1700,27 +1714,29 @@ input[type="checkbox"] {
   text-align: center;
 }
 .covid_text {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
   font-weight: 400;
   padding-top: 50px;
 }
 .covid_icon-area {
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 30px;
+  margin: 0 auto;
 }
 .covid_icon {
-  margin: 0 20px 40px;
+  margin: 0 10px 40px;
 }
 .covid_icon img {
-  width: 290px;
-  height: 200px;
+  width: 140px;
+  height: 100px;
   object-fit: contain;
   background-color: #ebebeb;
   border-radius: 10px;
-  padding: 10px;
+  padding: 24px;
 }
 @media(max-width:950px) {
   .covid {
@@ -1753,16 +1769,16 @@ input[type="checkbox"] {
   width: 100%;
   height: auto;
   background-color: #FFF;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 .request_text {
   padding-top: 50px;
   padding-bottom: 150px;
   font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
-  font-size: 2.0rem;
+  font-size: 1.4rem;
   font-weight: 400;
-  line-height: 5.0rem;
-  width: 80%;
+  line-height: 2.4rem;
+  width: 60%;
   display: block;
   margin: 0 auto;
 }
@@ -1825,10 +1841,10 @@ input[type="checkbox"] {
   padding-bottom: 60px;
 }
 .footer_inpage-link li, .footer_external_link li {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .footer_inpage-link li a, .footer_external_link li a {
-  font-size: 2.2rem;
+  font-size: 1.4rem;
   font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
   font-weight: 800;
   text-decoration: none;
@@ -1840,7 +1856,7 @@ input[type="checkbox"] {
   transition: .4s;
 }
 .copyright {
-  font-size: 2.2rem;
+  font-size: 1.4rem;
   font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
   font-weight: 800;
   color: #FFF;
@@ -1929,7 +1945,7 @@ input[type="checkbox"] {
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
