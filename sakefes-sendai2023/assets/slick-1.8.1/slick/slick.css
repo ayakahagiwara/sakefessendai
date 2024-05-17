@@ -74,12 +74,13 @@
     border: 1px solid transparent; }
 @media(max-width:550px){
   .slick-slide {
-    height: 465px;
+    height: 398px;
+    width: 260px;
   }
 }
 @media(max-width:400px){
   .slick-slide {
-    height: 118vw;
+    height: 410px;
   }
 }
 @media(max-width:350px) {
